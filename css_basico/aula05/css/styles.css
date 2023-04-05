@@ -1,0 +1,21 @@
+/* Menos especifico */
+
+p{
+    color:gray;
+    background-color: yellow;
+}
+
+/* Mais especifico */
+#paragrafo1{
+    color:red;
+    background-color: transparent;
+}
+
+/* Segundo mais especifico */
+.fundo-azul{
+    background-color: blue;
+}
+
+.texto-amarelo{
+    color: yellow;
+}

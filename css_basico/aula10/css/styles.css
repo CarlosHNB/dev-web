@@ -1,0 +1,28 @@
+
+div{
+    width: 500px;
+    height: 300px;
+    /* background-color: rgb(240, 100, 0);
+    background-image: url(../imagens/Textura_fundo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain; */
+
+    /* SHORT HAND */
+    background: rgb(240, 100, 0)
+    url(../imagens/Textura_fundo.png) 
+    no-repeat 
+    top right;
+
+    background-size: contain;
+}
+
+
+p{
+    width: 300px;
+    background-color: aquamarine;
+    background-image: url(../imagens/Fundo_abstrato.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+

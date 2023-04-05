@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Parte 33</title>
+    
+    <script>
+        // Executa apenas quando o site for todo carregado
+        
+        function loaded(){
+            let t = document.getElementById("titulo");
+           /* t.onclick = mudarText; */
+           t.addEventListener("mouseover", mudarText);
+           t.addEventListener("mouseout", mouseOut);
+        }
+
+        function mudarText(){
+            // This faz referência ao t, quando a função for invocada
+            this.innerHTML = "Novo Texto"
+        }
+
+        function mouseOut(){
+            this.innerHTML = "Mouse fora do elemento";
+        }
+
+        
+    </script>
+
+</head>
+<body onload="loaded()">
+    
+    <h1 id="titulo">teste</h1>
+
+    
+</body>
+</html>

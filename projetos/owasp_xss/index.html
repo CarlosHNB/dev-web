@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cross Site Scripting (XSS) | OWASP</title>
+</head>
+<body>
+    
+    <div class="top-header">
+        
+        <a href="#">
+                <img src="./imagens/owasp-logo.png" alt="owasp-logo" class="logo-owasp">
+        </a>
+        
+        <div class="menu-bar">
+            <a class="menu" href="#">PROJECTS</a>
+            <a class="menu" href="#">CHAPTERS</a>
+            <a class="menu" href="#">EVENTS</a>
+            <a class="menu"href="#">ABOUT</a>
+        </div>
+    
+    </div>
+    
+    <div class="content">
+        <h1>Cross Site Scripting (XSS)</h1>
+        <small>
+            <sub class="author">
+                <strong>Author:</strong> Carlos Henrique
+            </sub>
+        </small>
+        <br><br>
+        <h1 class="headers-1">Overview</h1>
+        
+        <p class="paragraph">
+            Os ataques Cross-Site Scripting (XSS) são um tipo de injeção, na qual scripts maliciosos são injetados 
+            em sites benignos e confiáveis. Os ataques XSS ocorrem quando um invasor usa um aplicativo da Web para 
+            enviar um código malicioso, geralmente na forma de um script do lado do navegador, para um usuário final 
+            diferente. As falhas que permitem que esses ataques sejam bem-sucedidos são bastante difundidas e ocorrem 
+            em qualquer lugar em que um aplicativo da Web use a entrada de um usuário na saída que ele gera sem 
+            validá-lo ou codificá-lo.
+        </p>
+        <h1 class="headers-1">Tipos de Xss</h1>
+        
+        <ul>
+            <li>Xss Refletido</li>
+            <li>Xss Armazenado</li>
+            <li>Blind Xss</li>
+        </ul>
+    
+    </div>
+    
+
+
+</body>
+</html>

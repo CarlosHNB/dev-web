@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.2rem;
+}
+
+.header{
+    height: 60px;
+    background-color: red;
+}
+
+ul{
+    list-style: none;
+    float: right;
+}
+
+li{
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    background-color: #a3b5c7;
+}
+
+p{
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/* img{
+    width: 200px;
+    float: left;
+}
+
+
+div{
+    border: 1px solid black;
+    overflow: auto;
+} */

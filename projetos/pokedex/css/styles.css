@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.content{
+    position: relative;
+    margin: 30px auto;
+    width: 300px;
+    /* border: 2px solid red; */
+}
+
+.pokedex-img{
+    width: 100%;
+    display: inline-block;
+}
+
+.pokemons{
+    width: 20%;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.header{
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    
+}
+
+.id-pokemon{
+    position: absolute;
+    top: 54.5%;
+    left: 35.7%;
+}
+
+.nome-pokemon{
+    position: absolute;
+    margin-left: 30px;
+    top: 54.5%;
+    left: 35.7%;
+}

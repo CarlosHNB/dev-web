@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: 'HarryP';
+    src: url(../fontes/HARRYP__.TTF);
+}
+
+body{
+
+    font-family: 'HarryP';
+    padding: 0;
+    margin: 0;
+    background-image: url(../imagens/hg-background.png);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.top-side{
+    letter-spacing: 20px;
+    text-align: center;
+    margin: 55px;
+    padding-top: 15px;
+    height: 45px;
+    background-color: rgba(255, 250, 250, 0.158);
+    border: 2px solid rgba(255, 250, 250, 0.151);
+    border-radius: 14px;
+}
+
+.menu{
+    
+    padding: 5px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+   /*  border: 1px solid rgba(255, 250, 250, 0.596); */
+    border-radius: 10px;
+
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    margin: 2px;
+    /* padding: 10px; */
+}
+
+.content{
+    max-width: auto;
+}
+
+.header{
+
+    text-align: center;
+    font-size: 150px;
+    color: rgba(255, 255, 255, 0.397);
+
+}
+
+.hp-desc{
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+.description{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.casas-hp{
+    max-width: 600px;
+    margin: auto;
+    
+}
+
+.casas-header{
+    font-family: 'HarryP';
+    font-weight: normal;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.76);
+    
+}
+
+.informacoes{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+li{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}

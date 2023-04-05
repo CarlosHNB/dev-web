@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Parte 23(DOM)</title>
+
+    <script>
+        // Muda a cor de fundo para vermelho
+        function onOver(elemento){
+            elemento.style.backgroundColor = "red";
+        }
+        // Volta para a cor de fundo original
+        function onOut(elemento){
+            elemento.style.backgroundColor = "";
+        }
+
+    </script>
+
+    <style>
+        img{
+            width: 200px;
+            margin-bottom: 25px;
+        }
+
+        div{
+            display: inline;
+            padding: 10px;
+            font-size: 2rem;
+            background-color: cornflowerblue;
+            color:aliceblue;
+        }
+    </style>
+
+</head>
+
+<body onload="console.log('Página completamente caregada')">
+    
+
+    <img src="https://img.freepik.com/vetores-gratis/wifi-design-de-fundo_23-2147626239.jpg?w=740&t=st=1680711655~exp=1680712255~hmac=7a9d669d279e0a94fd689909b54cec5b1b2f91a7fc41b33b207a0735ee1a4707" alt="moedas">
+    <br>
+    <div onmouseover="onOver(this)" 
+         onmouseout="onOut(this)">Click</div>
+    <p  onmouseover="onOver(this)" 
+        onmouseout="onOut(this)">Texo para teste</p>
+</body>
+</html>

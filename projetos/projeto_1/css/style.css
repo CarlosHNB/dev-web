@@ -1,0 +1,31 @@
+
+body{  
+    background-color: black;
+}
+
+.content-primary{
+    background-color: rgba(178 , 34, 34, 0.8);
+}
+
+.content-types-xss{
+    background-color: rgba(30, 19, 131, 0.8);
+}
+
+#header-primary{
+    color: rgb(12, 43, 136);
+}
+
+.header-secundary{
+    color: blueviolet;
+}
+#explain-xss{
+    color: yellow;
+}
+
+.style-paragrafo{
+    color: rgb(58, 231, 231)
+}
+
+.xss-types{
+    color: rgb(2, 196, 60)
+}

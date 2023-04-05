@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 1.2rem;
+}
+
+.header{
+    
+    position: relative;
+    float: left;
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    background-color: gray;
+    
+}
+
+.content{
+    color: white;
+    text-align: center;
+    font-size: 6vw;
+
+
+    /* margin: auto; */
+    position: absolute;
+    width: 70%;
+    height: 70px;
+    background-color: blue;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}

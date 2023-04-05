@@ -1,0 +1,9 @@
+.texto{
+    width: 100%; /* Usa a largura total do meu viewport */
+    max-width: 600px; /* Define uma largura total para o conteúdo */
+    margin: 0 auto; /* Centraliza a minha div */
+    /* Tudo relacionado a tamanhos do contéudo - content */
+    
+    background-color: red;
+
+}

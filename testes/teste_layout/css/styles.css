@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.cabecalho{
+    max-width: 95%;
+    height: 100px;
+    margin: 20px auto;
+    border: 2px solid black;
+    
+}
+
+
+
+.menu{
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    
+    width: 200px;
+    height: 200px;
+
+    border: 2px solid black;
+}
+
+.conteudo{
+    display: inline-block;
+    position: absolute;
+    left: 300px; 
+
+    width: 1010px;
+    height: 500px;
+
+    border: 2px solid black;
+}
+
+
+footer{
+
+    position: relative;
+    top: 510px;
+    width: 95%;
+    height: 50px;
+    margin-top: 40px;
+    margin: auto;
+    border: 2px solid red;
+
+}
+
+p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}

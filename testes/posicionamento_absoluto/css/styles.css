@@ -1,0 +1,43 @@
+
+
+.quadro{
+    margin: auto;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-red{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: red;
+}
+
+.quadrado-blue{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    background-color: blue;
+}
+
+.quadrado-green{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: green;
+}
+
+.quadrado-yellow{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: yellow;
+}
