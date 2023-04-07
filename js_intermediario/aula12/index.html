@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Título</title>
+
+    <style>
+        
+    </style>
+
+    <script>
+        // Função faz refêrencia ao objeto window
+        function f(e){
+            console.log("Teste");
+            console.log(e);
+        }
+
+        // Faz refêrencia ao meu elemento h1
+        function f1(e){
+            console.log("Teste f1");
+            console.log(e); // (e) - Evento disparado por addEventListener
+            console.log(e.target); // (e.target) - Elemento que está disparando o evento
+        }
+
+        window.onload = function(){
+            let h1 = document.getElementsByTagName("h1")[0];
+            h1.addEventListener("click", f1);
+        }
+        
+    </script>
+
+</head>
+<body>
+    <h1 onclick="f()">Títle</h1>
+</body>
+</html>
