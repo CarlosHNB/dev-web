@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Sorteio</title>
+
+    <script>
+
+        let participantes = ['Carlos', 'Siriuz', 'Die', 'Bl4nk', 'Sh4d0w'];
+        function sortear(){
+            let numeroParticipantes = participantes.length;
+
+            let numeroSorteado = Math.floor(Math.random() * numeroParticipantes);
+
+            let h1 = document.getElementById("display");
+            h1.innerHTML = participantes[numeroSorteado];
+            console.log(numeroSorteado);
+        }
+
+    </script>
+</head>
+<body>
+
+    <h1 id="display"></h1>
+    
+    <button onclick="sortear()"> Sortear </button>
+</body>
+</html>
