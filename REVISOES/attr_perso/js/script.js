@@ -1,5 +1,5 @@
 const lampElement = document.getElementById("lampada_apagada");
-const ButtonsElements = document.getElementById("buttons");
+const buttonsElements = document.getElementById("buttons");
 
 function getEventButton(event){
 
@@ -12,4 +12,4 @@ const lampStatus = {
     'desligar': function(){lampElement.src = './images/lampada-off.gif'},
 }
 
-ButtonsElements.addEventListener("click", getEventButton)
+ButtonsElements.addEventListener("click", getEventButton);
