@@ -13,6 +13,3 @@ const lampStatus = {
 }
 
 ButtonsElements.addEventListener("click", getEventButton)
-
-
-
