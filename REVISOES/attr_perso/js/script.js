@@ -1,8 +1,20 @@
-const lampada_estado = document.getElementById("lampada_apagada");
-const buttons = document.getElementById("buttons");
+const lampElement = document.getElementById("lampada_apagada");
+const ButtonsElements = document.getElementById("buttons");
+
+function getEventButton(event){
+
+    lampStatus[event.target.id]();
+
+}
+
+const lampStatus = {
+    'ligar': function (){lampElement.src = './images/lampada-on.gif'},
+    'desligar': function(){lampElement.src = './images/lampada-off.gif'},
+}
+
+ButtonsElements.addEventListener("click", getEventButton)
 
 
-console.log(buttons);
 
 /* button_on.addEventListener("click", function(){
     lampada_estado.setAttribute("src","./images/lampada-on.gif");
