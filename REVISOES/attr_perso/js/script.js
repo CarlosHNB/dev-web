@@ -10,3 +10,4 @@ button_on.addEventListener("click", function(){
 button_off.addEventListener("click", function(){
     lampada_estado.setAttribute("src", "./images/lampada-off.gif");
 })
+
