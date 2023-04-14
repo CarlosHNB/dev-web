@@ -12,4 +12,4 @@ const lampStatus = {
     'desligar': function(){lampElement.src = './images/lampada-off.gif'},
 }
 
-ButtonsElements.addEventListener("click", getEventButton);
+buttonsElements.addEventListener("click", getEventButton);
