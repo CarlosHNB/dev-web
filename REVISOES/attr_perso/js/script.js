@@ -8,8 +8,8 @@ function getEventButton(event){
 }
 
 const lampStatus = {
-    'ligar': function (){lampElement.src = './images/lampada-on.gif'},
-    'desligar': function(){lampElement.src = './images/lampada-off.gif'},
+    'ligar': function (){lampElement.setAttribute('src', './images/lampada-on.gif')},
+    'desligar': function(){lampElement.setAttribute('src', './images/lampada-off.gif')},
 }
 
 buttonsElements.addEventListener("click", getEventButton);
