@@ -1,3 +1,17 @@
-#head + p{
-    background-color: red;
+#head ~ p{
+    background-color: blue;
+}
+
+#div-teste{
+    background-color: bisque;
+}
+
+/* Pegando pro atributo */
+[width='200'] { 
+   color: red;
+}
+
+/* Pega todos os atributos que tem o nome "titulo" */
+[title$="1"]{
+    color: green
 }
