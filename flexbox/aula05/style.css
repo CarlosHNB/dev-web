@@ -1,29 +1,30 @@
+
 .container{
     display: flex;
-    d
-    /* flex-flow: row nowrap; */
     flex-direction: row;
-    flex-wrap: wrap-reverse;
-    /* justify-content: center; */
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
     background-color: darkgray;
-    height: 290px;
+    height: 500px;
     color: white;
 }
 
 .r1{
+    /* flex-grow: 3; */
     background-color: red;
 }
 
 .r2{
+    /* flex-grow: 1; */
     background-color: blue;
 }
 
 .r3{
+    /* flex-grow: 1; */
     background-color: green;
 }
 
 .rect{
     width: 150px;
-    height: 150px;
+    height: 100px;
 }
