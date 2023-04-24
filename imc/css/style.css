@@ -1,0 +1,72 @@
+.container{
+    
+    width: 300px;
+    margin: 50px auto ;
+    background-color: rgba(240, 5, 5, 0.658);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+}
+
+#primary{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+
+#secundary{
+    
+    padding: 30px
+}
+
+#secundary input{
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: 17px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+
+#nome{
+    transform: translate(32px);
+}
+#altura{
+    transform: translate(30px);
+}
+#peso{
+    transform: translate(39px);
+}
+
+button{
+    font-size: 15px;
+    width: 200px;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    border-radius: 5px;
+    transform: translate(20px);
+}
+
+#informacoes{
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.0em;
+   
+    transform: translate(10px);
+
+}
