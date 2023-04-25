@@ -1,0 +1,22 @@
+
+@keyframes changeColor{
+    from {
+        position: absolute;
+        top: 0px;
+        background-color: red;
+    }
+
+    to{
+        position: absolute;
+       top: 100px;
+        background-color: blue;
+    }
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    animation-name: changeColor;
+    animation-duration: 5s;
+}
