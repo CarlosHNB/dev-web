@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas: 
+    "head head head"
+    "side content content"
+    "foot foot foot";
+
+    grid-template-rows: 30px auto 30px;
+    grid-template-columns: 250px;
+}
+
+header{ 
+
+    grid-area: head;
+    background-color: red; 
+}
+article{ 
+    grid-area: content; 
+    background-color: blue;
+}
+
+aside{ 
+    grid-area: side; 
+    background-color: green;
+}
+footer{ 
+    grid-area: foot; 
+    background-color: yellow; 
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
