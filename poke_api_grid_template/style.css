@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 700;
+    font-style: oblique;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(231, 213, 189, 0.397);
+}
+
 .container{
    margin:  50px auto;
    min-width: 200px;
@@ -16,23 +26,29 @@
         "bot-number"
         "bot-details";
 
-    background-color: red;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* background-color: red; */
+   
     
 }
 
 .content{
     display: flex;
     flex-flow: wrap column;
+    background-color: #fff;
+   
 }
 
 .top-side{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     grid-area: top;
-    
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+.info-top-style{
+    margin: 10px;
+    padding: 10px;
 }
 
 .middle-side{
@@ -40,7 +56,7 @@
     flex-direction: column;
     align-items: center;
     grid-area: middle;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .bot-side-numbers{
@@ -48,7 +64,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     grid-area: bot-number;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 .bot-side-details{
@@ -58,5 +74,12 @@
 
 
     grid-area: bot-details;
-    background-color: yellow;
+    /* background-color: yellow; */
+}
+
+img{
+    width: 50%;
+    background-color: rgb(173, 168, 168);
+    border: solid 0px ;
+    border-radius: 90px;
 }
